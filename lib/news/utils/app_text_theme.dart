@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'utils.dart';
 
+/*It has different theme used in the project*/
+
 class AppTextTheme {
 
   static TextStyle title(BuildContext context) {
