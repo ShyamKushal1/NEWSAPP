@@ -5,6 +5,7 @@ import '../models/models.dart';
 
 class NewsRepository{
 
+  /*This method connect with the api and fetches record */
   Future<List<NewsModel>> getNews(int startIndex, int limit) async {
     final response = await http.get(
       tr('api_url')+'&_start=$startIndex&_limit=$limit'

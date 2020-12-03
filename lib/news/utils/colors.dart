@@ -1,3 +1,4 @@
+/*It has color code used in the project*/
 class ColorValue{
   static const String White_Color = '#FFFFFF';
   static const String Home_Color_Green = '#00968F';

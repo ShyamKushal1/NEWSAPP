@@ -1,3 +1,4 @@
+/*It has dimens value used in the project*/
 class Dimens
 {
   static const double MARGIN_VERY_SMALL = 2.0;

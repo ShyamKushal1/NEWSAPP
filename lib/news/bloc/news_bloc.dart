@@ -41,6 +41,7 @@ class NewsBloc extends Bloc<NewsEvent, NewsState> {
     }
   }
 
+  /* This method call the limit value and saves the fetched records**/
   Future<NewsState> _mapPostFetchedToState(NewsState state) async {
     if (state.hasReachedMax) return state;
     try {
@@ -66,6 +67,7 @@ class NewsBloc extends Bloc<NewsEvent, NewsState> {
     }
   }
 
+  /* This method update search query and filter the record in the listview**/
   Stream<NewsState> _updateSearchResults(NewsState state, String searchQuery) async* {
     if(searchQuery.isNotEmpty) {
       List<NewsModel> searchList = List<NewsModel>();
