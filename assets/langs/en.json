@@ -1,0 +1,22 @@
+{
+  "app_name" : "News App",
+  "detail": "Detail",
+  "news": "News",
+  "search": "Search",
+  "fail_msg": "failed to fetch news",
+  "error_msg": "error fetching posts",
+  "no_news": "no news",
+  "articles": "articles",
+  "author": "author",
+  "title": "title",
+  "description": "description",
+  "urlToImage": "urlToImage",
+  "url": "url",
+  "publishedAt": "publishedAt",
+  "source": "source",
+  "id": "id",
+  "name": "name",
+  "api_url": "http://newsapi.org/v2/everything?q=bitcoin&from=2020-11-06&apiKey=090e6f303a4f4acc9be12e385e948152",
+  "no_data": "no data",
+  "launch_err_msg":"Could not launch"
+}
